@@ -1,2 +1,2 @@
 # Pet Space
-My first repo from scratch!
+[Pet Space Home Page](home-page.html)
