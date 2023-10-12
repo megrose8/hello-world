@@ -40,5 +40,11 @@ section{
     background-color: #ffc0cb;
     height: 50px;
 }
-.abouts{    
+footer{
+    background-color:#ffc0cb ;
+    height: 150px;
+    
+}
+#nugg-about{
+    padding-bottom: 10px;
 }
