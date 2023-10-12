@@ -5,6 +5,21 @@
     <title>Pet Space</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<script>
+    let userName = prompt ('❤️ Hi! What is your name? ❤️');
+    console.log (userName);
+    document.write ('Hi ' + userName + '  Welcome to PetSpace!');
+</script>
+<script>
+   
+    var response = prompt("Do you have any pets? (yes/no)").toLowerCase(); // Convert input to lowercase
+    var hasPets = response === "yes";
+    if (hasPets) {
+        document.write("🐱A proud pet-parent!🐶");
+    } else {
+        document.write("No pets?? I'm so sorry to hear that.😣");
+    }
+</script>
 <body>
     <h1>&hearts; PetSpace &hearts; </h1>
 <section class="navigation">
@@ -33,7 +48,7 @@
     <strong>Answers to: Trash Rat, Kiwi Lemon, Fruit, and Sweet Girl</strong>
         </p>
 </section>
-<section class="abouts">
+<section id="nugg-about">
 <h3>About Nugget</h3>
         <img src="nugg.jpg" alt= "photo of a white and brown bulldog sitting in the front seat of a car" width="300" height="300" <br>
         <p> 
@@ -48,7 +63,6 @@
         </p>
 </section>
 <footer>
-    <a href="https://www.instagram.com/kiwi.kleekai/">visit Kiwi's instagram</a>
 </footer>
 </body>
 </html>
