@@ -28,7 +28,9 @@ h3{
     padding: 10px;
 }
 img{
-    display:block
+    display:inline;
+    height: 300px;
+    width: 300px;
 }
 section{
     background-color: white;
@@ -47,4 +49,8 @@ footer{
 }
 #nugg-about{
     padding-bottom: 10px;
+}
+.loop-img {
+    width: 200px;
+    display: inline
 }
